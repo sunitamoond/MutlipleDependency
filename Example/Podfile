@@ -1,6 +1,9 @@
 use_frameworks!
 
 target 'MutlipleDependency_Example' do
+  pod 'M13Checkbox'
+  pod 'SkyFloatingLabelTextField', '~> 3.0'
+  pod 'TagListView', '~> 1.0'
   pod 'MutlipleDependency', :path => '../'
 
   target 'MutlipleDependency_Tests' do
