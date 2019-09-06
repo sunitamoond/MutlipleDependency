@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MutlipleDependency_Example' do
+  pod 'MutlipleDependency', :path => '../'
+
+  target 'MutlipleDependency_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
